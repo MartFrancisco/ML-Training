@@ -1,25 +1,23 @@
-## Machine Learning - Training
+# Machine Learning - Training Projects
 
-#### There are two short projects I used to train. 
+This repository contains two short machine learning projects I completed as part of my training.
+
 ---
-### Glass Classification
 
-The first one is a classical problem of classification of unbalanced classes.
-Here, I used the glass dataset [Available at the UCI repository](https://archive.ics.uci.edu/dataset/42/glass+identification).
+## Glass Classification
 
-In this problem, I started with some techniques of exploratory data analysis. The purpose was to check the data distribution and statistics. Check duplicates or null values.
-I also plotted some graphs for better visualization (pair plot, violin graph, correlation) [you can see here the EDA](https://github.com/MartFrancisco/ML-Training/blob/main/exploratory%20data%20analysis.ipynb)
+This project addresses a classical problem of classifying unbalanced classes using the [Glass Identification dataset](https://archive.ics.uci.edu/dataset/42/glass+identification) from the UCI repository.
 
-Five models were generated and then evaluated and tuned. Four performance indicators were computed for each model, before and after tunning (F1, recall, accuracy, and precision).
-[Check here](https://github.com/MartFrancisco/ML-Training/blob/main/Models.ipynb).
+- **Exploratory Data Analysis (EDA):** I began by performing EDA to examine the data distribution and key statistics, as well as to check for duplicates or missing values. I visualized the data using pair plots, violin plots, and correlation matrices for better insight. You can view the EDA [here](https://github.com/MartFrancisco/ML-Training/blob/main/exploratory%20data%20analysis.ipynb).
+  
+- **Modeling:** I built and tuned five classification models, comparing their performance before and after tuning using four key metrics: F1-score, recall, accuracy, and precision. You can explore the models and their results [here](https://github.com/MartFrancisco/ML-Training/blob/main/Models.ipynb).
 
+---
 
+## QSAR Androgen Receptor
 
-### QSAR androgen receptor
+In this project, I built machine learning models to predict whether molecules are active in an androgen receptor using the [QSAR Androgen Receptor dataset](https://archive.ics.uci.edu/dataset/509/qsar+androgen+receptor) from the UCI repository. The dataset includes 1,024 molecular fingerprint attributes for 1,687 molecules.
 
-It is a project to build classification machine learning models to predict if molecules are active or not in a receptor.
-Check the dataset at [UCI - QSAR androgen receptor](https://archive.ics.uci.edu/dataset/509/qsar+androgen+receptor). It contains 1024 attributes (molecular fingerprints) and 1687 instances (molecules).
-
-I used this project to study the effect of unbalanced data on the models. Support Vector Classifier and Random Forest were employed for the original dataset and then evaluated. In the second step, the classes were balanced using SMOTE (Synthetic Minority Oversampling Technique), and both machine learning algorithms were again employed to check the possible implications.
-
-It is possible to observe that by treating the unbalanced characteristic of the data set, the models have a significant increase in the performance measurements. You can check the project [here](https://github.com/MartFrancisco/ML-Training/blob/main/QSAR%20agonist.ipynb)
+- **Objective:** The project focuses on understanding the impact of unbalanced data on model performance. I applied Support Vector Classifier (SVC) and Random Forest models on the original dataset, followed by re-training on a balanced dataset using SMOTE (Synthetic Minority Oversampling Technique).
+  
+- **Findings:** Balancing the dataset resulted in significant performance improvements across both models. The details of the models and their evaluation can be found [here](https://github.com/MartFrancisco/ML-Training/blob/main/QSAR%20agonist.ipynb).
