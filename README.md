@@ -8,7 +8,7 @@ This repository contains two short machine learning projects I completed as part
 
 This project addresses a classical problem of classifying unbalanced classes using the [Glass Identification dataset](https://archive.ics.uci.edu/dataset/42/glass+identification) from the UCI repository.
 
-- **Exploratory Data Analysis (EDA):** I began by performing EDA to examine the data distribution and key statistics, as well as to check for duplicates or missing values. I visualized the data using pair plots, violin plots, and correlation matrices for better insight. You can view the EDA [here](https://github.com/MartFrancisco/ML-Training/blob/main/exploratory%20data%20analysis.ipynb).
+- **Exploratory Data Analysis (EDA):** I began by performing EDA to examine the data distribution and key statistics, as well as to check for duplicates or missing values. I visualized the data using pair plots, violin plots, and correlation matrices for better insight. You can view the EDA [here](https://github.com/MartFrancisco/ML-Training/blob/main/EDA.ipynb).
   
 - **Modeling:** I built and tuned five classification models, comparing their performance before and after tuning using four key metrics: F1-score, recall, accuracy, and precision. You can explore the models and their results [here](https://github.com/MartFrancisco/ML-Training/blob/main/Models.ipynb).
 
