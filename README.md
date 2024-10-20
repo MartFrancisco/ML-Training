@@ -20,4 +20,4 @@ In this project, I built machine learning models to predict whether molecules ar
 
 - **Objective:** The project focuses on understanding the impact of unbalanced data on model performance. I applied Support Vector Classifier (SVC) and Random Forest models on the original dataset, followed by re-training on a balanced dataset using SMOTE (Synthetic Minority Oversampling Technique).
   
-- **Findings:** Balancing the dataset resulted in significant performance improvements across both models. The details of the models and their evaluation can be found [here](https://github.com/MartFrancisco/ML-Training/blob/main/QSAR%20agonist.ipynb).
+- **Findings:** Balancing the dataset resulted in significant performance improvements across both models. The details of the models and their evaluation can be found [here](https://github.com/MartFrancisco/ML-Training/blob/main/QSAR_agonist_models.ipynb).
