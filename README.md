@@ -1,6 +1,6 @@
 # Machine Learning - Training Projects
 
-This repository contains two short machine learning projects I completed as part of my training.
+This repository features two machine learning projects used as case studies to demonstrate the application of ML techniques in chemistry. It supports an outreach project I coordinate with the Brazilian scientific community through my [@pychemie](https://www.instagram.com/pychemie/) instagram account.
 
 ---
 
